@@ -1,8 +1,16 @@
-# VS Code
-.vscode/
-
-# Скомпільовані файли C++ та об'єктні файли
+cd ..
+cat << 'EOF' > .gitignore
 *.o
 *.obj
-*.exe
+*.a
+*.so
 *.out
+
+snake/Snake
+pingpong/Game
+flappybird/FlappyBird
+tetris/Tetris
+
+.vscode/
+.DS_Store
+EOF
